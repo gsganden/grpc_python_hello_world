@@ -1,7 +1,7 @@
 [project]
-name = "grpc"
+name = "grpc_python_hello_world"
 version = "0.1.0"
-description = "Add your description here"
+description = "Hello, world example for gRPC in Python"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
