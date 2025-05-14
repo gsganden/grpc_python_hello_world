@@ -9,4 +9,7 @@ wheels/
 # Virtual environments
 .venv
 
-**/*_pb2*.py*
+.specstory
+
+generated_grpc/*
+!generated_grpc/__init__.py

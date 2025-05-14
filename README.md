@@ -8,11 +8,11 @@ Generate Python gRPC code:
 
 ```bash
 uv run python -m grpc_tools.protoc \
-    -Iproto_definitions \
-    --python_out=. \
-    --pyi_out=. \
-    --grpc_python_out=. \
-    generated_grpc/helloworld.proto
+    -Iprotos \
+    --python_out=generated_grpc \
+    --pyi_out=generated_grpc \
+    --grpc_python_out=generated_grpc \
+    helloworld.proto
 ```
 
 Start server:
