@@ -10,6 +10,7 @@ wheels/
 .venv
 
 .specstory
+.cursorindexingignore
 
 generated_grpc/*
 !generated_grpc/__init__.py
